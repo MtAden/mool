@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension UIButton {
-    func pulse() {
+    open func pulse() {
         let bounce = CASpringAnimation(keyPath: "transform.scale")
         bounce.duration = 0.3
         bounce.fromValue = 0.95
@@ -23,7 +23,7 @@ extension UIButton {
         layer.add(bounce, forKey: nil)
     }
     
-    func flash() {
+    open func flash() {
         let flash = CABasicAnimation(keyPath: "opacity")
         flash.duration = 0.3
         flash.fromValue = 1
@@ -35,7 +35,7 @@ extension UIButton {
         layer.add(flash, forKey: nil)
     }
     
-    func nopeShake() {
+    open func nopeShake() {
         let shake = CABasicAnimation(keyPath: "position")
         shake.duration = 0.1
         shake.repeatCount = 2
@@ -53,7 +53,7 @@ extension UIButton {
         layer.add(shake, forKey: nil)
     }
     
-    func bounce() {
+    open func bounce() {
         let bounce = CABasicAnimation(keyPath: "position")
         bounce.duration = 0.1
         bounce.repeatCount = 2
