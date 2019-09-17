@@ -24,3 +24,16 @@ extension String {
         return ceil(boundingBox.width)
     }
 }
+
+extension String {
+    public func removeWhiteSpaces() -> String {
+        let arr = self.components(separatedBy: CharacterSet(charactersIn: " "))
+        var concatedString = ""
+        
+        for word in arr {
+            concatedString = concatedString + word
+        }
+        
+        return concatedString
+    }
+}
