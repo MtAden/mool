@@ -77,3 +77,14 @@ extension UIViewController {
 private func convertToUIApplicationOpenExternalURLOptionsKeyDictionary(_ input: [String: Any]) -> [UIApplication.OpenExternalURLOptionsKey: Any] {
     return Dictionary(uniqueKeysWithValues: input.map { key, value in (UIApplication.OpenExternalURLOptionsKey(rawValue: key), value) })
 }
+
+extension UIViewController {
+    func showIndicator() -> UIActivityIndicatorView {
+        let spinner = UIActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 40, height:40))
+        spinner.color = UIColor.gray
+        spinner.center = CGPoint(x:UIScreen.main.bounds.size.width / 2, y:UIScreen.main.bounds.size.height / 2)
+        self.view.window?.addSubview(spinner)
+        spinner.hidesWhenStopped = true
+        return spinner
+    }
+}

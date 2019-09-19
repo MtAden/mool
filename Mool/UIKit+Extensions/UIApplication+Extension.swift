@@ -28,4 +28,20 @@ extension UIApplication {
         }
     }
 }
+
+extension UIApplication {
+    @discardableResult
+    static func presentAlert(title: String, message: String, buttonTitles: [String] = ["OK"], completion: ((UIAlertAction) -> Void)? = nil) -> UIAlertController? {
+        return self.shared.keyWindow?.rootViewController?.presentAlert(title: title, message: message, buttonTitles: buttonTitles, completion: completion)
+    }
+    
+    static func presentError(_ error: Error?) {
+        self.shared.keyWindow?.rootViewController?.presentError(error)
+    }
+    
+    static func presentInfo(_ message: String) {
+        self.shared.keyWindow?.rootViewController?.presentInfo(message)
+    }
+}
+
 #endif

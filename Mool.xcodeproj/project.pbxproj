@@ -39,6 +39,11 @@
 		BB5E11882310792E00B8B489 /* UIViewController+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E11712310792D00B8B489 /* UIViewController+Segue.swift */; };
 		BB5E11892310792E00B8B489 /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E11732310792D00B8B489 /* UITableView+extension.swift */; };
 		BB5E118A2310792E00B8B489 /* UITextField+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E11752310792D00B8B489 /* UITextField+CGRect.swift */; };
+		BB8B47A82334287C009FD5D0 /* Toolbar+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */; };
+		BB8B47B123342B77009FD5D0 /* GMSPolyline+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */; };
+		BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */; };
+		BB8B47B723342D8B009FD5D0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B623342D8B009FD5D0 /* Toast.swift */; };
+		BB8B47B923342F1D009FD5D0 /* UIView+autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,11 @@
 		BB5E11712310792D00B8B489 /* UIViewController+Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Segue.swift"; sourceTree = "<group>"; };
 		BB5E11732310792D00B8B489 /* UITableView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
 		BB5E11752310792D00B8B489 /* UITextField+CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+CGRect.swift"; sourceTree = "<group>"; };
+		BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toolbar+helpers.swift"; sourceTree = "<group>"; };
+		BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSPolyline+extension.swift"; sourceTree = "<group>"; };
+		BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+extension.swift"; sourceTree = "<group>"; };
+		BB8B47B623342D8B009FD5D0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+autolayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +131,7 @@
 			children = (
 				BB2D8FC023137FEF0008BE3F /* UIView+LoadFromNib.swift */,
 				BB2D8FC2231380370008BE3F /* UIView+NameOfClass.swift */,
+				BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -146,9 +157,12 @@
 		BB5E11382310752100B8B489 /* Mool */ = {
 			isa = PBXGroup;
 			children = (
+				BB8B47B423342D77009FD5D0 /* UIControls */,
+				BB8B47AF23342B4A009FD5D0 /* GoogleMaps+extensions */,
+				BB8B47A62334285B009FD5D0 /* UIKit+Helpers */,
 				BB5E11562310792C00B8B489 /* Extra */,
 				BB5E11582310792D00B8B489 /* Foundation */,
-				BB5E115F2310792D00B8B489 /* UIKit */,
+				BB5E115F2310792D00B8B489 /* UIKit+Extensions */,
 				BB5E11392310752100B8B489 /* Mool.h */,
 				BB5E113A2310752100B8B489 /* Info.plist */,
 			);
@@ -196,6 +210,7 @@
 				BB5E115A2310792D00B8B489 /* Date+TimeAgoSince.swift */,
 				BB5E115B2310792D00B8B489 /* Date+extension.swift */,
 				BB5E115C2310792D00B8B489 /* Date+String.swift */,
+				BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -210,7 +225,7 @@
 			path = String;
 			sourceTree = "<group>";
 		};
-		BB5E115F2310792D00B8B489 /* UIKit */ = {
+		BB5E115F2310792D00B8B489 /* UIKit+Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				BB2D8FBF23137FDA0008BE3F /* UIView */,
@@ -228,7 +243,7 @@
 				BB5E11722310792D00B8B489 /* UITableView */,
 				BB5E11742310792D00B8B489 /* UITextField */,
 			);
-			path = UIKit;
+			path = "UIKit+Extensions";
 			sourceTree = "<group>";
 		};
 		BB5E11612310792D00B8B489 /* UIImage */ = {
@@ -299,6 +314,38 @@
 				BB5E11752310792D00B8B489 /* UITextField+CGRect.swift */,
 			);
 			path = UITextField;
+			sourceTree = "<group>";
+		};
+		BB8B47A62334285B009FD5D0 /* UIKit+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */,
+			);
+			path = "UIKit+Helpers";
+			sourceTree = "<group>";
+		};
+		BB8B47AF23342B4A009FD5D0 /* GoogleMaps+extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */,
+			);
+			path = "GoogleMaps+extensions";
+			sourceTree = "<group>";
+		};
+		BB8B47B423342D77009FD5D0 /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B47B523342D7E009FD5D0 /* Toast */,
+			);
+			path = UIControls;
+			sourceTree = "<group>";
+		};
+		BB8B47B523342D7E009FD5D0 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B47B623342D8B009FD5D0 /* Toast.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,20 +462,25 @@
 				BB5E11782310792E00B8B489 /* App+InfoPlist.swift in Sources */,
 				BB5E117A2310792E00B8B489 /* Date+extension.swift in Sources */,
 				BB2D8FC7231381330008BE3F /* UIViewController+BarButtonItems.swift in Sources */,
+				BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */,
 				BB5E117C2310792E00B8B489 /* String+extension.swift in Sources */,
 				BB5E117E2310792E00B8B489 /* UIImage+Extension.swift in Sources */,
 				BB5E117F2310792E00B8B489 /* UIDevice+Extension.swift in Sources */,
 				BB5E11852310792E00B8B489 /* UICollectionView+extension.swift in Sources */,
+				BB8B47A82334287C009FD5D0 /* Toolbar+helpers.swift in Sources */,
 				BB2D8FC123137FEF0008BE3F /* UIView+LoadFromNib.swift in Sources */,
 				BB5E11812310792E00B8B489 /* UIActivity+Extension.swift in Sources */,
 				BB5E11892310792E00B8B489 /* UITableView+extension.swift in Sources */,
 				BB2D8FBC23137F060008BE3F /* UICollectionView+Cells.swift in Sources */,
+				BB8B47B923342F1D009FD5D0 /* UIView+autolayout.swift in Sources */,
 				BB2D8FBE23137FA30008BE3F /* UITableView+Cells.swift in Sources */,
 				BB5E11822310792E00B8B489 /* UIView+Extension.swift in Sources */,
 				BB5E11792310792E00B8B489 /* Date+TimeAgoSince.swift in Sources */,
 				BB5E11882310792E00B8B489 /* UIViewController+Segue.swift in Sources */,
+				BB8B47B723342D8B009FD5D0 /* Toast.swift in Sources */,
 				BB5E11832310792E00B8B489 /* UIStoryboard+extension.swift in Sources */,
 				BB2D8FC3231380370008BE3F /* UIView+NameOfClass.swift in Sources */,
+				BB8B47B123342B77009FD5D0 /* GMSPolyline+extension.swift in Sources */,
 				BB5E118A2310792E00B8B489 /* UITextField+CGRect.swift in Sources */,
 				BB5E117B2310792E00B8B489 /* Date+String.swift in Sources */,
 				BB2D8FB823137E360008BE3F /* String+localization.swift in Sources */,

@@ -6,6 +6,8 @@
 //  Copyright © 2019 Mt Aden LLC. All rights reserved.
 //
 
+#if canImport(UIKit) && os(iOS)
+
 import UIKit
 
 extension UIView {
@@ -20,3 +22,5 @@ extension UIView {
         view.translatesAutoresizingMaskIntoConstraints = false
     }
 }
+
+#endif

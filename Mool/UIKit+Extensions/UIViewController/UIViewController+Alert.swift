@@ -46,3 +46,44 @@ extension UIAlertController {
     }
 }
 
+extension UIViewController {
+    func presentInfo(_ message: String) {
+        Toast.default.backgroundColor = UIColor.lightGray
+        Toast.default.show(message: message)
+    }
+    
+    func presentError(_ error: Error?, message: String = "") {
+        var msg = ""
+        if message.isEmpty, error != nil {
+            msg = (error?.localizedDescription)!
+        } else {
+            msg = message
+        }
+        
+        Toast.default.backgroundColor = UIColor.red
+        Toast.default.show(message: msg)
+    }
+    
+    @discardableResult
+    func presentAlert(title: String, message: String, buttonTitles: [String] = ["OK"], completion: ((UIAlertAction) -> Void)? = nil) -> UIAlertController {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        buttonTitles.forEach {
+            var style: UIAlertAction.Style = .default
+            var title = $0
+            if title.hasPrefix("!") {
+                style = .cancel
+                title = String(title.dropFirst())
+            }
+            
+            let alertAction = UIAlertAction(title: title, style: style) { action in
+                completion?(action)
+            }
+            alertController.addAction(alertAction)
+        }
+        
+        present(alertController, animated: true, completion: nil)
+        return alertController
+    }
+    
+}
+

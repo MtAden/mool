@@ -81,4 +81,13 @@ public extension Date {
         return Date(timeIntervalSince1970: TimeInterval(timeInterval)).stringFormatYYYY_MM_DD_HH_mm_ss()
     }
     
+//    func dateTime24HRWithTimeZone(longTimeZone: String?) -> String {
+//        guard let timeZoneLong = longTimeZone,
+//            let timezoneShort = timeZoneShort(for: timeZoneLong)
+//            else {
+//                return self.stringFormatEEE_MM_DD_HH_mm_24HR()
+//        }
+//        return self.stringFormatEEE_MM_DD_HH_mm_24HR() + " " + timezoneShort
+//    }
+    
 }

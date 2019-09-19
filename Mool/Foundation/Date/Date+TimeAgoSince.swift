@@ -11,11 +11,11 @@ import Foundation
 typealias DateCompomentsTuple = (Int?, Int?, Int?, Int?, Int?, Int?, Int?)
 
 public extension Date {
-    public static func timeAgoSinceNow(numeric numericDates: Bool) -> String {
+    static func timeAgoSinceNow(numeric numericDates: Bool) -> String {
         return timeAgo(since: Date(), numericDates: numericDates)
     }
     
-    public static func timeAgo(since date: Date, numericDates: Bool) -> String {
+     static func timeAgo(since date: Date, numericDates: Bool) -> String {
         
         let calendar = Calendar.current
         let unitFlags: Set<Calendar.Component> = [.minute, .hour, .day, .weekOfYear, .month, .year, .second]
@@ -28,7 +28,7 @@ public extension Date {
         return createAgoString(dateCompoments: dateCompoments, numericDates: numericDates)
     }
     
-    public static func testDateSinceSometime() {
+    static func testDateSinceSometime() {
         let date = Date(timeIntervalSinceNow: 60)
         debugPrint(Date.timeAgo(since: Date(timeInterval: 0, since: date), numericDates: false))
     }
@@ -111,11 +111,11 @@ public extension Date {
 }
 
 public extension Date {
-    public func earlierDate(_ date:Date) -> Date {
+     func earlierDate(_ date:Date) -> Date {
         return (self.timeIntervalSince1970 <= date.timeIntervalSince1970) ? self : date
     }
     
-    public func laterDate(_ date:Date) -> Date {
+     func laterDate(_ date:Date) -> Date {
         return (self.timeIntervalSince1970 >= date.timeIntervalSince1970) ? self : date
     }
 }
