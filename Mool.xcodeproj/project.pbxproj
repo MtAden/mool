@@ -39,6 +39,11 @@
 		BB5E11882310792E00B8B489 /* UIViewController+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E11712310792D00B8B489 /* UIViewController+Segue.swift */; };
 		BB5E11892310792E00B8B489 /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E11732310792D00B8B489 /* UITableView+extension.swift */; };
 		BB5E118A2310792E00B8B489 /* UITextField+CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E11752310792D00B8B489 /* UITextField+CGRect.swift */; };
+		BB5E3508233557B800BA0527 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E3507233557B800BA0527 /* GradientView.swift */; };
+		BB5E350A2335FF5500BA0527 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E35092335FF5500BA0527 /* UIColor+Extension.swift */; };
+		BB5E350F233600A400BA0527 /* App+generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E350E233600A300BA0527 /* App+generic.swift */; };
+		BB5E3511233600F000BA0527 /* UIViewConroller+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */; };
+		BB5E35182336058100BA0527 /* String+youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E35172336058100BA0527 /* String+youtube.swift */; };
 		BB8B47A82334287C009FD5D0 /* Toolbar+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */; };
 		BB8B47B123342B77009FD5D0 /* GMSPolyline+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */; };
 		BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */; };
@@ -92,6 +97,11 @@
 		BB5E11712310792D00B8B489 /* UIViewController+Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Segue.swift"; sourceTree = "<group>"; };
 		BB5E11732310792D00B8B489 /* UITableView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
 		BB5E11752310792D00B8B489 /* UITextField+CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+CGRect.swift"; sourceTree = "<group>"; };
+		BB5E3507233557B800BA0527 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BB5E35092335FF5500BA0527 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BB5E350E233600A300BA0527 /* App+generic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+generic.swift"; sourceTree = "<group>"; };
+		BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Hero.swift"; sourceTree = "<group>"; };
+		BB5E35172336058100BA0527 /* String+youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+youtube.swift"; sourceTree = "<group>"; };
 		BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toolbar+helpers.swift"; sourceTree = "<group>"; };
 		BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSPolyline+extension.swift"; sourceTree = "<group>"; };
 		BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+extension.swift"; sourceTree = "<group>"; };
@@ -157,6 +167,7 @@
 		BB5E11382310752100B8B489 /* Mool */ = {
 			isa = PBXGroup;
 			children = (
+				BB5E350D2336008700BA0527 /* New Group */,
 				BB8B47B423342D77009FD5D0 /* UIControls */,
 				BB8B47AF23342B4A009FD5D0 /* GoogleMaps+extensions */,
 				BB8B47A62334285B009FD5D0 /* UIKit+Helpers */,
@@ -221,6 +232,7 @@
 				BB5E115E2310792D00B8B489 /* String+extension.swift */,
 				BB2D8FB723137E360008BE3F /* String+localization.swift */,
 				BB2D8FB923137E6D0008BE3F /* String+validator.swift */,
+				BB5E35172336058100BA0527 /* String+youtube.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -257,6 +269,7 @@
 		BB5E11642310792D00B8B489 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
+				BB5E35092335FF5500BA0527 /* UIColor+Extension.swift */,
 				BB5E11652310792D00B8B489 /* UIColor+init.swift */,
 			);
 			path = UIColor;
@@ -290,6 +303,7 @@
 		BB5E116E2310792D00B8B489 /* UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */,
 				BB5E116F2310792D00B8B489 /* UIViewController+extension.swift */,
 				BB5E11702310792D00B8B489 /* Segue.swift */,
 				BB5E11712310792D00B8B489 /* UIViewController+Segue.swift */,
@@ -316,6 +330,14 @@
 			path = UITextField;
 			sourceTree = "<group>";
 		};
+		BB5E350D2336008700BA0527 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E350E233600A300BA0527 /* App+generic.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		BB8B47A62334285B009FD5D0 /* UIKit+Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +357,7 @@
 		BB8B47B423342D77009FD5D0 /* UIControls */ = {
 			isa = PBXGroup;
 			children = (
+				BB5E3507233557B800BA0527 /* GradientView.swift */,
 				BB8B47B523342D7E009FD5D0 /* Toast */,
 			);
 			path = UIControls;
@@ -460,6 +483,7 @@
 				BB5E11862310792E00B8B489 /* UIViewController+extension.swift in Sources */,
 				BB2D8FBA23137E6D0008BE3F /* String+validator.swift in Sources */,
 				BB5E11782310792E00B8B489 /* App+InfoPlist.swift in Sources */,
+				BB5E350A2335FF5500BA0527 /* UIColor+Extension.swift in Sources */,
 				BB5E117A2310792E00B8B489 /* Date+extension.swift in Sources */,
 				BB2D8FC7231381330008BE3F /* UIViewController+BarButtonItems.swift in Sources */,
 				BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */,
@@ -483,12 +507,16 @@
 				BB8B47B123342B77009FD5D0 /* GMSPolyline+extension.swift in Sources */,
 				BB5E118A2310792E00B8B489 /* UITextField+CGRect.swift in Sources */,
 				BB5E117B2310792E00B8B489 /* Date+String.swift in Sources */,
+				BB5E3511233600F000BA0527 /* UIViewConroller+Hero.swift in Sources */,
 				BB2D8FB823137E360008BE3F /* String+localization.swift in Sources */,
 				BB5E1152231075C800B8B489 /* UIButton+animation.swift in Sources */,
 				BB2D8FB623137DCE0008BE3F /* NumberFormatter+currency.swift in Sources */,
+				BB5E35182336058100BA0527 /* String+youtube.swift in Sources */,
 				BB5E11872310792E00B8B489 /* Segue.swift in Sources */,
 				BB5E11842310792E00B8B489 /* NSLayoutConstraint+extension.swift in Sources */,
 				BB5E117D2310792E00B8B489 /* UIApplication+Extension.swift in Sources */,
+				BB5E350F233600A400BA0527 /* App+generic.swift in Sources */,
+				BB5E3508233557B800BA0527 /* GradientView.swift in Sources */,
 				BB5E11802310792E00B8B489 /* UIColor+init.swift in Sources */,
 				BB2D8FC52313807D0008BE3F /* UIViewController+Alert.swift in Sources */,
 			);
@@ -648,6 +676,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Mool/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,6 +704,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Mool/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
