@@ -18,11 +18,11 @@ public protocol Identifiable {
 }
 
 public extension Identifiable {
-    public var identifier: String {
+    var identifier: String {
         return String(describing: self)
     }
     
-    public static var identifier: String {
+    static var identifier: String {
         return String(describing: self)
     }
 }
