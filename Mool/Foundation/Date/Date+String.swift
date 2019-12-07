@@ -15,7 +15,7 @@ public extension Date {
     ///
     /// - Parameter format: Date format string e.g YYYY_MM_DD or MM_DD_YYYY
     /// - Returns: string of date instance
-    public func toString( dateFormat format  : String ) -> String {
+    func toString( dateFormat format  : String ) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format
         return dateFormatter.string(from: self)
@@ -24,7 +24,7 @@ public extension Date {
     /// String from Date instance for format YYYY_MM_DD_HH_mm_ss
     ///
     /// - Returns: returns date in `YYYY_MM_DD_HH_mm_ss`
-    public func stringFormatYYYY_MM_DD_HH_mm_ss() -> String {
+    func stringFormatYYYY_MM_DD_HH_mm_ss() -> String {
         return toString(dateFormat: "yyyy-MM-dd HH:mm:ss")
     }
     
@@ -59,7 +59,7 @@ public extension Date {
     /// Returns Seconds since Unix Epoch
     ///
     /// - Returns: 64 bit integer number to represent seconds since Unix Epoch
-    public func currentTimeInSeconds() -> Int64 {
+    func currentTimeInSeconds() -> Int64 {
         return Int64(self.timeIntervalSince1970)
     }
     
@@ -67,16 +67,16 @@ public extension Date {
     ///
     /// - Parameter timestamp: seconds as 64bit integer
     /// - Returns: Date calculated from seconds
-    public func getDate(from timestamp: Int64) -> Date {
+    func getDate(from timestamp: Int64) -> Date {
         let timeInterval = TimeInterval(timestamp)
         return Date(timeIntervalSince1970: TimeInterval(timeInterval))
     }
     
-    public func currentTimeInSecondsString() -> String {
+    func currentTimeInSecondsString() -> String {
         return String(Int64(self.timeIntervalSince1970))
     }
     
-    public func getDateString(from timestamp: Int64) -> String {
+    func getDateString(from timestamp: Int64) -> String {
         let timeInterval = TimeInterval(timestamp)
         return Date(timeIntervalSince1970: TimeInterval(timeInterval)).stringFormatYYYY_MM_DD_HH_mm_ss()
     }
