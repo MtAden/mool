@@ -6,7 +6,6 @@
 //  Copyright © 2019 Mt Aden LLC. All rights reserved.
 //
 
-
 public enum Size: Int, Comparable {
     case unknownSize = 0
     #if os(iOS)
@@ -45,10 +44,10 @@ public enum Size: Int, Comparable {
     #endif
 }
 
-public func <(lhs: Size, rhs: Size) -> Bool {
+public func < (lhs: Size, rhs: Size) -> Bool {
     return lhs.rawValue < rhs.rawValue
 }
 
-public func ==(lhs: Size, rhs: Size) -> Bool {
+public func == (lhs: Size, rhs: Size) -> Bool {
     return lhs.rawValue == rhs.rawValue
 }
