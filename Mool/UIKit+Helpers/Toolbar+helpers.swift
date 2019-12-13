@@ -8,9 +8,9 @@
 
 import UIKit
 
-struct UIKitHelper {
-    private init() { }
-    static func createToolBarWith(buttonTitle: String, action: Selector) -> UIToolbar {
+public struct UIKitHelper {
+    private init() {}
+    public static func createToolBarWith(buttonTitle: String, action: Selector) -> UIToolbar {
         let toolBar = UIToolbar()
         toolBar.barStyle = .default
         toolBar.isTranslucent = true
@@ -25,7 +25,7 @@ struct UIKitHelper {
         return toolBar
     }
     
-    static func createToolBarWith(buttons titles: [String], actions: [Selector]) -> UIToolbar {
+    public static func createToolBarWith(buttons titles: [String], actions: [Selector]) -> UIToolbar {
         let toolBar = UIToolbar()
         toolBar.barStyle = .default
         toolBar.isTranslucent = true
