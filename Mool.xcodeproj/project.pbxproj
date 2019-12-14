@@ -45,6 +45,7 @@
 		BB5E350F233600A400BA0527 /* App+generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E350E233600A300BA0527 /* App+generic.swift */; };
 		BB5E3511233600F000BA0527 /* UIViewConroller+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */; };
 		BB5E35182336058100BA0527 /* String+youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E35172336058100BA0527 /* String+youtube.swift */; };
+		BB750E3F23A4C2F0005ED4C9 /* UITableView+IndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E3E23A4C2F0005ED4C9 /* UITableView+IndexPath.swift */; };
 		BB827F4F233B36B4004D4CFB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F4E233B36B4004D4CFB /* Device.swift */; };
 		BB827F51233B36EB004D4CFB /* DeviceVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F50233B36EB004D4CFB /* DeviceVersion.swift */; };
 		BB827F53233B370D004D4CFB /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F52233B370D004D4CFB /* DeviceType.swift */; };
@@ -108,6 +109,7 @@
 		BB5E350E233600A300BA0527 /* App+generic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+generic.swift"; sourceTree = "<group>"; };
 		BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Hero.swift"; sourceTree = "<group>"; };
 		BB5E35172336058100BA0527 /* String+youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+youtube.swift"; sourceTree = "<group>"; };
+		BB750E3E23A4C2F0005ED4C9 /* UITableView+IndexPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+IndexPath.swift"; sourceTree = "<group>"; };
 		BB827F4E233B36B4004D4CFB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		BB827F50233B36EB004D4CFB /* DeviceVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVersion.swift; sourceTree = "<group>"; };
 		BB827F52233B370D004D4CFB /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				BB5E11732310792D00B8B489 /* UITableView+extension.swift */,
+				BB750E3E23A4C2F0005ED4C9 /* UITableView+IndexPath.swift */,
 				BB2D8FBD23137FA30008BE3F /* UITableView+Cells.swift */,
 			);
 			path = UITableView;
@@ -550,6 +553,7 @@
 				BB5E11872310792E00B8B489 /* Segue.swift in Sources */,
 				BB5E11842310792E00B8B489 /* NSLayoutConstraint+extension.swift in Sources */,
 				BB5E117D2310792E00B8B489 /* UIApplication+Extension.swift in Sources */,
+				BB750E3F23A4C2F0005ED4C9 /* UITableView+IndexPath.swift in Sources */,
 				BB5E350F233600A400BA0527 /* App+generic.swift in Sources */,
 				BB5E3508233557B800BA0527 /* GradientView.swift in Sources */,
 				BB5E11802310792E00B8B489 /* UIColor+init.swift in Sources */,
