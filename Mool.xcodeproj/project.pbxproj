@@ -46,6 +46,10 @@
 		BB5E3511233600F000BA0527 /* UIViewConroller+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */; };
 		BB5E35182336058100BA0527 /* String+youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E35172336058100BA0527 /* String+youtube.swift */; };
 		BB750E3F23A4C2F0005ED4C9 /* UITableView+IndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E3E23A4C2F0005ED4C9 /* UITableView+IndexPath.swift */; };
+		BB750E4223A611B5005ED4C9 /* URL+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4123A611B5005ED4C9 /* URL+extension.swift */; };
+		BB750E4423A611EB005ED4C9 /* String+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4323A611EB005ED4C9 /* String+Data.swift */; };
+		BB750E4623A6132D005ED4C9 /* DateFormatter+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */; };
+		BB750E4823A6136C005ED4C9 /* UIAlertController+exension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */; };
 		BB827F4F233B36B4004D4CFB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F4E233B36B4004D4CFB /* Device.swift */; };
 		BB827F51233B36EB004D4CFB /* DeviceVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F50233B36EB004D4CFB /* DeviceVersion.swift */; };
 		BB827F53233B370D004D4CFB /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F52233B370D004D4CFB /* DeviceType.swift */; };
@@ -110,6 +114,10 @@
 		BB5E3510233600F000BA0527 /* UIViewConroller+Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Hero.swift"; sourceTree = "<group>"; };
 		BB5E35172336058100BA0527 /* String+youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+youtube.swift"; sourceTree = "<group>"; };
 		BB750E3E23A4C2F0005ED4C9 /* UITableView+IndexPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+IndexPath.swift"; sourceTree = "<group>"; };
+		BB750E4123A611B5005ED4C9 /* URL+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+extension.swift"; sourceTree = "<group>"; };
+		BB750E4323A611EB005ED4C9 /* String+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Data.swift"; sourceTree = "<group>"; };
+		BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+init.swift"; sourceTree = "<group>"; };
+		BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+exension.swift"; sourceTree = "<group>"; };
 		BB827F4E233B36B4004D4CFB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		BB827F50233B36EB004D4CFB /* DeviceVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVersion.swift; sourceTree = "<group>"; };
 		BB827F52233B370D004D4CFB /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
@@ -228,6 +236,7 @@
 		BB5E11582310792D00B8B489 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				BB750E4023A61187005ED4C9 /* URL */,
 				BB2D8FB423137DA70008BE3F /* Number */,
 				BB5E11592310792D00B8B489 /* Date */,
 				BB5E115D2310792D00B8B489 /* String */,
@@ -242,6 +251,7 @@
 				BB5E115B2310792D00B8B489 /* Date+extension.swift */,
 				BB5E115C2310792D00B8B489 /* Date+String.swift */,
 				BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */,
+				BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -253,6 +263,7 @@
 				BB2D8FB723137E360008BE3F /* String+localization.swift */,
 				BB2D8FB923137E6D0008BE3F /* String+validator.swift */,
 				BB5E35172336058100BA0527 /* String+youtube.swift */,
+				BB750E4323A611EB005ED4C9 /* String+Data.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -274,6 +285,7 @@
 				BB5E116E2310792D00B8B489 /* UIViewController */,
 				BB5E11722310792D00B8B489 /* UITableView */,
 				BB5E11742310792D00B8B489 /* UITextField */,
+				BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */,
 			);
 			path = "UIKit+Extensions";
 			sourceTree = "<group>";
@@ -358,6 +370,14 @@
 				BB5E350E233600A300BA0527 /* App+generic.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BB750E4023A61187005ED4C9 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				BB750E4123A611B5005ED4C9 /* URL+extension.swift */,
+			);
+			path = URL;
 			sourceTree = "<group>";
 		};
 		BB827F4D233B368E004D4CFB /* Device */ = {
@@ -516,8 +536,10 @@
 			files = (
 				BB5E11862310792E00B8B489 /* UIViewController+extension.swift in Sources */,
 				BB2D8FBA23137E6D0008BE3F /* String+validator.swift in Sources */,
+				BB750E4823A6136C005ED4C9 /* UIAlertController+exension.swift in Sources */,
 				BB5E11782310792E00B8B489 /* App+InfoPlist.swift in Sources */,
 				BB827F53233B370D004D4CFB /* DeviceType.swift in Sources */,
+				BB750E4623A6132D005ED4C9 /* DateFormatter+init.swift in Sources */,
 				BB5E350A2335FF5500BA0527 /* UIColor+Extension.swift in Sources */,
 				BB5E117A2310792E00B8B489 /* Date+extension.swift in Sources */,
 				BB2D8FC7231381330008BE3F /* UIViewController+BarButtonItems.swift in Sources */,
@@ -527,6 +549,7 @@
 				BB5E117F2310792E00B8B489 /* UIDevice+Extension.swift in Sources */,
 				BB5E11852310792E00B8B489 /* UICollectionView+extension.swift in Sources */,
 				BB3C08AA233EA55D00787EBB /* ShadowRoundedImageView.swift in Sources */,
+				BB750E4423A611EB005ED4C9 /* String+Data.swift in Sources */,
 				BB8B47A82334287C009FD5D0 /* Toolbar+helpers.swift in Sources */,
 				BB2D8FC123137FEF0008BE3F /* UIView+LoadFromNib.swift in Sources */,
 				BB5E11812310792E00B8B489 /* UIActivity+Extension.swift in Sources */,
@@ -551,6 +574,7 @@
 				BB2D8FB623137DCE0008BE3F /* NumberFormatter+currency.swift in Sources */,
 				BB5E35182336058100BA0527 /* String+youtube.swift in Sources */,
 				BB5E11872310792E00B8B489 /* Segue.swift in Sources */,
+				BB750E4223A611B5005ED4C9 /* URL+extension.swift in Sources */,
 				BB5E11842310792E00B8B489 /* NSLayoutConstraint+extension.swift in Sources */,
 				BB5E117D2310792E00B8B489 /* UIApplication+Extension.swift in Sources */,
 				BB750E3F23A4C2F0005ED4C9 /* UITableView+IndexPath.swift in Sources */,
