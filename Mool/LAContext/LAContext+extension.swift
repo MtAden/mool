@@ -8,7 +8,7 @@
 
 import LocalAuthentication
 
-extension LAContext {
+public extension LAContext {
     enum BiometricType: String {
         case none
         case touchID
@@ -54,6 +54,16 @@ extension LAContext {
             })
         } else {
             completion(false)
+        }
+    }
+    
+    @available(iOS 11.0, *)
+    static public func correctImageForBioMetric() -> UIImage? {
+        if LAContext().biometryType == .faceID {
+            return UIImage(named: "face_id")
+        } else {
+            return  UIImage(named: "touch_id")
+
         }
     }
 }

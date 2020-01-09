@@ -23,7 +23,7 @@ extension UITextField {
 }
 
 // MARK : UI related
-extension UITextField{
+extension UITextField {
     @IBInspectable var placeHolderColor: UIColor? {
         get {
             return self.placeHolderColor

@@ -51,6 +51,7 @@
 		BB750E4623A6132D005ED4C9 /* DateFormatter+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */; };
 		BB750E4823A6136C005ED4C9 /* UIAlertController+exension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */; };
 		BB80354623C6A20D00CDD5E0 /* LAContext+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80354523C6A20D00CDD5E0 /* LAContext+extension.swift */; };
+		BB80358723C7D68B00CDD5E0 /* MoolAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB80358623C7D68B00CDD5E0 /* MoolAssets.xcassets */; };
 		BB827F4F233B36B4004D4CFB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F4E233B36B4004D4CFB /* Device.swift */; };
 		BB827F51233B36EB004D4CFB /* DeviceVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F50233B36EB004D4CFB /* DeviceVersion.swift */; };
 		BB827F53233B370D004D4CFB /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F52233B370D004D4CFB /* DeviceType.swift */; };
@@ -120,6 +121,7 @@
 		BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+init.swift"; sourceTree = "<group>"; };
 		BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+exension.swift"; sourceTree = "<group>"; };
 		BB80354523C6A20D00CDD5E0 /* LAContext+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LAContext+extension.swift"; sourceTree = "<group>"; };
+		BB80358623C7D68B00CDD5E0 /* MoolAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MoolAssets.xcassets; sourceTree = "<group>"; };
 		BB827F4E233B36B4004D4CFB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		BB827F50233B36EB004D4CFB /* DeviceVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVersion.swift; sourceTree = "<group>"; };
 		BB827F52233B370D004D4CFB /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
@@ -379,6 +381,7 @@
 			isa = PBXGroup;
 			children = (
 				BB80354523C6A20D00CDD5E0 /* LAContext+extension.swift */,
+				BB80358623C7D68B00CDD5E0 /* MoolAssets.xcassets */,
 			);
 			path = LAContext;
 			sourceTree = "<group>";
@@ -520,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB80358723C7D68B00CDD5E0 /* MoolAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
