@@ -50,6 +50,7 @@
 		BB750E4423A611EB005ED4C9 /* String+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4323A611EB005ED4C9 /* String+Data.swift */; };
 		BB750E4623A6132D005ED4C9 /* DateFormatter+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */; };
 		BB750E4823A6136C005ED4C9 /* UIAlertController+exension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */; };
+		BB80354623C6A20D00CDD5E0 /* LAContext+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB80354523C6A20D00CDD5E0 /* LAContext+extension.swift */; };
 		BB827F4F233B36B4004D4CFB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F4E233B36B4004D4CFB /* Device.swift */; };
 		BB827F51233B36EB004D4CFB /* DeviceVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F50233B36EB004D4CFB /* DeviceVersion.swift */; };
 		BB827F53233B370D004D4CFB /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F52233B370D004D4CFB /* DeviceType.swift */; };
@@ -118,6 +119,7 @@
 		BB750E4323A611EB005ED4C9 /* String+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Data.swift"; sourceTree = "<group>"; };
 		BB750E4523A6132D005ED4C9 /* DateFormatter+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+init.swift"; sourceTree = "<group>"; };
 		BB750E4723A6136C005ED4C9 /* UIAlertController+exension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+exension.swift"; sourceTree = "<group>"; };
+		BB80354523C6A20D00CDD5E0 /* LAContext+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LAContext+extension.swift"; sourceTree = "<group>"; };
 		BB827F4E233B36B4004D4CFB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		BB827F50233B36EB004D4CFB /* DeviceVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceVersion.swift; sourceTree = "<group>"; };
 		BB827F52233B370D004D4CFB /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
@@ -195,7 +197,9 @@
 		BB5E11382310752100B8B489 /* Mool */ = {
 			isa = PBXGroup;
 			children = (
-				BB5E350D2336008700BA0527 /* Helpers */,
+				BB80354423C6A1ED00CDD5E0 /* LAContext */,
+				BB5E350E233600A300BA0527 /* App+generic.swift */,
+				BB827F4D233B368E004D4CFB /* Device */,
 				BB8B47B423342D77009FD5D0 /* UIControls */,
 				BB8B47AF23342B4A009FD5D0 /* GoogleMaps+extensions */,
 				BB8B47A62334285B009FD5D0 /* UIKit+Helpers */,
@@ -363,21 +367,20 @@
 			path = UITextField;
 			sourceTree = "<group>";
 		};
-		BB5E350D2336008700BA0527 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				BB827F4D233B368E004D4CFB /* Device */,
-				BB5E350E233600A300BA0527 /* App+generic.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
 		BB750E4023A61187005ED4C9 /* URL */ = {
 			isa = PBXGroup;
 			children = (
 				BB750E4123A611B5005ED4C9 /* URL+extension.swift */,
 			);
 			path = URL;
+			sourceTree = "<group>";
+		};
+		BB80354423C6A1ED00CDD5E0 /* LAContext */ = {
+			isa = PBXGroup;
+			children = (
+				BB80354523C6A20D00CDD5E0 /* LAContext+extension.swift */,
+			);
+			path = LAContext;
 			sourceTree = "<group>";
 		};
 		BB827F4D233B368E004D4CFB /* Device */ = {
@@ -546,6 +549,7 @@
 				BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */,
 				BB5E117C2310792E00B8B489 /* String+extension.swift in Sources */,
 				BB5E117E2310792E00B8B489 /* UIImage+Extension.swift in Sources */,
+				BB80354623C6A20D00CDD5E0 /* LAContext+extension.swift in Sources */,
 				BB5E117F2310792E00B8B489 /* UIDevice+Extension.swift in Sources */,
 				BB5E11852310792E00B8B489 /* UICollectionView+extension.swift in Sources */,
 				BB3C08AA233EA55D00787EBB /* ShadowRoundedImageView.swift in Sources */,
