@@ -128,3 +128,28 @@ extension Date {
         return calendar.date(from: mergedComponments)
     }
 }
+
+
+public extension Date {
+    
+    func getCurrentDay() -> Int {
+        let calendar = Calendar.current
+        let day = calendar.component(.day, from: self)
+        
+        return day
+    }
+    
+    func getCurrentMonth() -> Int {
+        let calendar = Calendar.current
+        let month = calendar.component(.month, from: self)
+        
+        return month
+    }
+    
+    func getCurrentYear() -> Int {
+        let calendar = Calendar.current
+        let year = calendar.component(.year, from: self)
+        
+        return year
+    }
+}

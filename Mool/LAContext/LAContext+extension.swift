@@ -15,16 +15,14 @@ public extension LAContext {
         case faceID
     }
 
-    var biometricType: BiometricType {
+    static func currentBiometricType() -> BiometricType {
         var error: NSError?
-
-        guard self.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) else {
-            // Capture these recoverable error thru Crashlytics
-            return .none
-        }
-
+        let authContext = LAContext()
+        
         if #available(iOS 11.0, *) {
-            switch self.biometryType {
+        let _ =  authContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error)
+
+            switch authContext.biometryType {
             case .none:
                 return .none
             case .touchID:
@@ -35,11 +33,11 @@ public extension LAContext {
                 fatalError()
             }
         } else {
-            return  self.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil) ? .touchID : .none
+            return  authContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil) ? .touchID : .none
         }
     }
     
-    static public func validateUserWithBioIdIfPossible(_ reasonText: String, completion: @escaping (_ success: Bool) -> Void) {
+    static func validateUserWithBioIdIfPossible(_ reasonText: String, completion: @escaping (_ success: Bool) -> Void) {
         let context = LAContext()
         let error = NSErrorPointer.init(nilLiteral: ())
         let policy: LAPolicy
@@ -58,8 +56,8 @@ public extension LAContext {
     }
     
     @available(iOS 11.0, *)
-    static public func correctImageForBioMetric() -> UIImage? {
-        if LAContext().biometryType == .faceID {
+    static func correctImageForBioMetric() -> UIImage? {
+        if LAContext.currentBiometricType() == .faceID {
             return UIImage(named: "face_id")
         } else {
             return  UIImage(named: "touch_id")
