@@ -46,6 +46,8 @@ extension UIViewController {
                 }
             case .authorized:
                 debugPrint("All permissions good.")
+            @unknown default:
+                fatalError("Unknown case")
             }
         }
     }
