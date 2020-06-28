@@ -6,10 +6,13 @@
 //  Copyright © 2019 Mt Aden LLC. All rights reserved.
 //
 
+#if canImport(UIKit) && canImport(Foundation) && os(iOS)
 import Foundation
 import UIKit
 
 extension UIButton {
+    
+    /// Adds `pulse` animaiton to UIButton
     open func pulse() {
         let bounce = CASpringAnimation(keyPath: "transform.scale")
         bounce.duration = 0.3
@@ -23,6 +26,7 @@ extension UIButton {
         layer.add(bounce, forKey: nil)
     }
     
+    /// Adds `flash` animaiton to UIButton
     open func flash() {
         let flash = CABasicAnimation(keyPath: "opacity")
         flash.duration = 0.3
@@ -35,6 +39,7 @@ extension UIButton {
         layer.add(flash, forKey: nil)
     }
     
+    /// Adds `no shake` animaiton to UIButton
     open func nopeShake() {
         let shake = CABasicAnimation(keyPath: "position")
         shake.duration = 0.1
@@ -53,6 +58,7 @@ extension UIButton {
         layer.add(shake, forKey: nil)
     }
     
+    /// Adds `bounce` animaiton to UIButton
     open func bounce() {
         let bounce = CABasicAnimation(keyPath: "position")
         bounce.duration = 0.1
@@ -71,5 +77,5 @@ extension UIButton {
         layer.add(bounce, forKey: nil)
     }
 }
-
+#endif
 

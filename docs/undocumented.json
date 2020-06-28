@@ -1,0 +1,1874 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/App+InfoPlist.swift",
+      "line": 8,
+      "symbol": "InfoPlist",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/App+InfoPlist.swift",
+      "line": 10,
+      "symbol": "InfoPlist.majorVersion(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/App+InfoPlist.swift",
+      "line": 17,
+      "symbol": "InfoPlist.buildNumber(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 12,
+      "symbol": "Device",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 93,
+      "symbol": "Device.version()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 97,
+      "symbol": "Device.size()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 138,
+      "symbol": "Device.type()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 143,
+      "symbol": "Device.isEqualToScreenSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 148,
+      "symbol": "Device.isLargerThanScreenSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 153,
+      "symbol": "Device.isSmallerThanScreenSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 157,
+      "symbol": "Device.isRetina()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 161,
+      "symbol": "Device.isPad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 165,
+      "symbol": "Device.isPhone()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 169,
+      "symbol": "Device.isPod()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/Device.swift",
+      "line": 173,
+      "symbol": "Device.isSimulator()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceSize.swift",
+      "line": 9,
+      "symbol": "Size",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceSize.swift",
+      "line": 10,
+      "symbol": "Size.unknownSize",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceSize.swift",
+      "line": 47,
+      "symbol": "<(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceSize.swift",
+      "line": 51,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceType.swift",
+      "line": 10,
+      "symbol": "Type",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceType.swift",
+      "line": 12,
+      "symbol": "Type.iPhone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceType.swift",
+      "line": 13,
+      "symbol": "Type.iPad",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceType.swift",
+      "line": 14,
+      "symbol": "Type.iPod",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceType.swift",
+      "line": 15,
+      "symbol": "Type.simulator",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceType.swift",
+      "line": 25,
+      "symbol": "Type.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 9,
+      "symbol": "DeviceModel",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 12,
+      "symbol": "DeviceModel.iPhone4S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 13,
+      "symbol": "DeviceModel.iPhone5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 14,
+      "symbol": "DeviceModel.iPhone5C",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 15,
+      "symbol": "DeviceModel.iPhone5S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 16,
+      "symbol": "DeviceModel.iPhone6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 17,
+      "symbol": "DeviceModel.iPhone6Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 18,
+      "symbol": "DeviceModel.iPhone6S",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 19,
+      "symbol": "DeviceModel.iPhone6SPlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 20,
+      "symbol": "DeviceModel.iPhoneSE",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 21,
+      "symbol": "DeviceModel.iPhone7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 22,
+      "symbol": "DeviceModel.iPhone7Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 23,
+      "symbol": "DeviceModel.iPhone8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 24,
+      "symbol": "DeviceModel.iPhone8Plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 25,
+      "symbol": "DeviceModel.iPhoneX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 26,
+      "symbol": "DeviceModel.iPhoneXS",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 27,
+      "symbol": "DeviceModel.iPhoneXS_Max",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 28,
+      "symbol": "DeviceModel.iPhoneXR",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 32,
+      "symbol": "DeviceModel.iPad2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 33,
+      "symbol": "DeviceModel.iPad3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 34,
+      "symbol": "DeviceModel.iPad4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 35,
+      "symbol": "DeviceModel.iPad5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 36,
+      "symbol": "DeviceModel.iPad6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 37,
+      "symbol": "DeviceModel.iPadAir",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 38,
+      "symbol": "DeviceModel.iPadAir2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 39,
+      "symbol": "DeviceModel.iPadMini",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 40,
+      "symbol": "DeviceModel.iPadMini2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 41,
+      "symbol": "DeviceModel.iPadMini3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 42,
+      "symbol": "DeviceModel.iPadMini4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 43,
+      "symbol": "DeviceModel.iPadPro9_7Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 44,
+      "symbol": "DeviceModel.iPadPro10_5Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 45,
+      "symbol": "DeviceModel.iPadPro12_9Inch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 49,
+      "symbol": "DeviceModel.iPodTouch2Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 50,
+      "symbol": "DeviceModel.iPodTouch3Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 51,
+      "symbol": "DeviceModel.iPodTouch4Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 52,
+      "symbol": "DeviceModel.iPodTouch5Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Device/DeviceVersion.swift",
+      "line": 53,
+      "symbol": "DeviceModel.iPodTouch6Gen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+String.swift",
+      "line": 75,
+      "symbol": "Date.currentTimeInSecondsString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+String.swift",
+      "line": 79,
+      "symbol": "Date.getDateString(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
+      "line": 11,
+      "symbol": "DateCompomentsTuple",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
+      "line": 14,
+      "symbol": "Date.timeAgoSinceNow(numeric:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
+      "line": 18,
+      "symbol": "Date.timeAgo(since:numericDates:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
+      "line": 31,
+      "symbol": "Date.testDateSinceSometime()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
+      "line": 114,
+      "symbol": "Date.earlierDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
+      "line": 118,
+      "symbol": "Date.laterDate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 11,
+      "symbol": "Date.reduceToMonthDayYear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 21,
+      "symbol": "Date.convertStringToIso8601(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 28,
+      "symbol": "Date.convertDate_YYYY_MM_DD(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 35,
+      "symbol": "Date.convertTime_HH_mm(date:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 42,
+      "symbol": "Date.now()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 46,
+      "symbol": "Date.utcToLocalTimeDate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 56,
+      "symbol": "Date.convertStringDateStringTimeToIso8601(date:time:timeZone:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 71,
+      "symbol": "Date.combineDateWithTime(date:time:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 88,
+      "symbol": "Date.combineDateWithTime(dateString:timeString:timeZoneString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 112,
+      "symbol": "Date.combineDateWith(timeZoneString:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 135,
+      "symbol": "Date.getCurrentDay()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 142,
+      "symbol": "Date.getCurrentMonth()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+extension.swift",
+      "line": 149,
+      "symbol": "Date.getCurrentYear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 12,
+      "symbol": "DateComponents.fromNow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 17,
+      "symbol": "DateComponents.ago",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 22,
+      "symbol": "DateComponents.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 26,
+      "symbol": "DateComponents.-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 30,
+      "symbol": "DateComponents.combineComponents(_:_:multiplier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 42,
+      "symbol": "DateComponents.-(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 55,
+      "symbol": "DateComponents.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 60,
+      "symbol": "DateComponents.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 65,
+      "symbol": "DateComponents.-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 73,
+      "symbol": "Int.second",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 79,
+      "symbol": "Int.seconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 83,
+      "symbol": "Int.minute",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 89,
+      "symbol": "Int.minutes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 93,
+      "symbol": "Int.hour",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 99,
+      "symbol": "Int.hours",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 103,
+      "symbol": "Int.day",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 109,
+      "symbol": "Int.days",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 113,
+      "symbol": "Int.week",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 119,
+      "symbol": "Int.weeks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 123,
+      "symbol": "Int.month",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 129,
+      "symbol": "Int.months",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 133,
+      "symbol": "Int.year",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateComponents+extension.swift",
+      "line": 139,
+      "symbol": "Int.years",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/DateFormatter+init.swift",
+      "line": 13,
+      "symbol": "DateFormatter.init(dateStyle:timeStyle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Number/NumberFormatter+currency.swift",
+      "line": 12,
+      "symbol": "NumberFormatter.formatter(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+EmailValidation.swift",
+      "line": 13,
+      "symbol": "String.isValidEmailAddress()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+extension.swift",
+      "line": 13,
+      "symbol": "String.height(withConstrainedWidth:font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+extension.swift",
+      "line": 20,
+      "symbol": "String.width(withConstrainedHeight:font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+extension.swift",
+      "line": 29,
+      "symbol": "String.removeWhiteSpaces()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+extension.swift",
+      "line": 40,
+      "symbol": "String.stringByTrimmingWhitespace()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+extension.swift",
+      "line": 44,
+      "symbol": "String.stringByTrimmingWhitespaceAndNewlines()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+localization.swift",
+      "line": 12,
+      "symbol": "String.localizable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 15,
+      "symbol": "String.isValidAsEmail()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 21,
+      "symbol": "String.isValidAsHolderName()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 25,
+      "symbol": "String.isValidAsPassword()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 29,
+      "symbol": "String.luhnValid()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 43,
+      "symbol": "String.orNil()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 47,
+      "symbol": "String.hasAtLeastOneSymbol()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 51,
+      "symbol": "String.asCardMaskNumber()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+validator.swift",
+      "line": 55,
+      "symbol": "String.asCardDefaultNumber()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+youtube.swift",
+      "line": 11,
+      "symbol": "String.youtubeID",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/URL/URL+extension.swift",
+      "line": 14,
+      "symbol": "URL.inDocumentsFolder(fileName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 11,
+      "symbol": "UserDefaults.string(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 19,
+      "symbol": "UserDefaults.array(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 27,
+      "symbol": "UserDefaults.dictionary(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 35,
+      "symbol": "UserDefaults.data(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 43,
+      "symbol": "UserDefaults.stringArray(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 51,
+      "symbol": "UserDefaults.integer(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 64,
+      "symbol": "UserDefaults.float(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 77,
+      "symbol": "UserDefaults.double(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/UserDefaults+extension.swift",
+      "line": 90,
+      "symbol": "UserDefaults.bool(forKey:orDefault:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 12,
+      "symbol": "LAContext.BiometricType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 13,
+      "symbol": "LAContext.BiometricType.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 14,
+      "symbol": "LAContext.BiometricType.touchID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 15,
+      "symbol": "LAContext.BiometricType.faceID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 18,
+      "symbol": "LAContext.currentBiometricType()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 40,
+      "symbol": "LAContext.validateUserWithBioIdIfPossible(_:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/LAContext/LAContext+extension.swift",
+      "line": 59,
+      "symbol": "LAContext.correctImageForBioMetric()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 15,
+      "symbol": "GradientView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 21,
+      "symbol": "GradientView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 28,
+      "symbol": "GradientViewDesignable",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 32,
+      "symbol": "GradientViewDesignable.topColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 38,
+      "symbol": "GradientViewDesignable.bottomColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 44,
+      "symbol": "GradientViewDesignable.shadowColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 50,
+      "symbol": "GradientViewDesignable.shadowX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 56,
+      "symbol": "GradientViewDesignable.shadowY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 62,
+      "symbol": "GradientViewDesignable.shadowBlur",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 68,
+      "symbol": "GradientViewDesignable.startPointX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 74,
+      "symbol": "GradientViewDesignable.startPointY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 80,
+      "symbol": "GradientViewDesignable.endPointX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 86,
+      "symbol": "GradientViewDesignable.endPointY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 92,
+      "symbol": "GradientViewDesignable.cornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 98,
+      "symbol": "GradientViewDesignable.layerClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 102,
+      "symbol": "GradientViewDesignable.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/GradientView.swift",
+      "line": 118,
+      "symbol": "GradientViewDesignable.animate(duration:newTopColor:newBottomColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/NSLayoutConstraint+extension.swift",
+      "line": 11,
+      "symbol": "NSLayoutConstraint.Constant",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/NSLayoutConstraint+extension.swift",
+      "line": 12,
+      "symbol": "NSLayoutConstraint.Constant.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/NSLayoutConstraint+extension.swift",
+      "line": 13,
+      "symbol": "NSLayoutConstraint.Constant.mini",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/NSLayoutConstraint+extension.swift",
+      "line": 14,
+      "symbol": "NSLayoutConstraint.Constant.regular",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/NSLayoutConstraint+extension.swift",
+      "line": 15,
+      "symbol": "NSLayoutConstraint.Constant.wide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/NSLayoutConstraint+extension.swift",
+      "line": 16,
+      "symbol": "NSLayoutConstraint.Constant.extraWide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 11,
+      "symbol": "Toast",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 12,
+      "symbol": "Toast.Position",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 13,
+      "symbol": "Toast.Position.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 13,
+      "symbol": "Toast.Position.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 16,
+      "symbol": "Toast.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 27,
+      "symbol": "Toast.positionOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 28,
+      "symbol": "Toast.position",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 29,
+      "symbol": "Toast.percentageWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 30,
+      "symbol": "Toast.cornerRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 31,
+      "symbol": "Toast.dismissDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 32,
+      "symbol": "Toast.backgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 33,
+      "symbol": "Toast.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 34,
+      "symbol": "Toast.isShadowEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 35,
+      "symbol": "Toast.isVisible",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 39,
+      "symbol": "Toast.show(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toast/Toast.swift",
+      "line": 53,
+      "symbol": "Toast.addToastToWindow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toolbar+helpers.swift",
+      "line": 11,
+      "symbol": "UIKitHelper",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toolbar+helpers.swift",
+      "line": 13,
+      "symbol": "UIKitHelper.createToolBarWith(buttonTitle:action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/Toolbar+helpers.swift",
+      "line": 28,
+      "symbol": "UIKitHelper.createToolBarWith(buttons:actions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIAlertController+exension.swift",
+      "line": 14,
+      "symbol": "UIAlertController.passwordDialogue(title:message:handler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 11,
+      "symbol": "UIApplication.statusBarView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 15,
+      "symbol": "UIApplication.showIndicatorOnStausBar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 19,
+      "symbol": "UIApplication.hideIndicatorOnStatusBar()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 23,
+      "symbol": "UIApplication.networkActivityIndicatorStatusBar(show:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 34,
+      "symbol": "UIApplication.presentAlert(title:message:buttonTitles:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 38,
+      "symbol": "UIApplication.presentError(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIApplication+Extension.swift",
+      "line": 42,
+      "symbol": "UIApplication.presentInfo(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+Cells.swift",
+      "line": 12,
+      "symbol": "UICollectionView.registerNibForCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+Cells.swift",
+      "line": 17,
+      "symbol": "UICollectionView.registerNibForSupplementaryView(_:of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+Cells.swift",
+      "line": 22,
+      "symbol": "UICollectionView.dequeueReusableCellForIndexPath(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+Cells.swift",
+      "line": 26,
+      "symbol": "UICollectionView.dequeueReusableSupplementaryViewForIndexPath(_:of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+extension.swift",
+      "line": 11,
+      "symbol": "UICollectionView.setEmptyMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+extension.swift",
+      "line": 26,
+      "symbol": "UICollectionView.restore()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UICollectionView/UICollectionView+extension.swift",
+      "line": 30,
+      "symbol": "UICollectionView.numberOfItems()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIColor/UIColor+Extension.swift",
+      "line": 11,
+      "symbol": "UIColor.getComplementaryForColor(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIColor/UIColor+Extension.swift",
+      "line": 23,
+      "symbol": "UIColor.color(withImageName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIColor/UIColor+init.swift",
+      "line": 12,
+      "symbol": "UIColor.init(hexString:alpha:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIColor/UIColor+init.swift",
+      "line": 31,
+      "symbol": "UIColor.init(red:green:blue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIColor/UIColor+init.swift",
+      "line": 39,
+      "symbol": "UIColor.toHexString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIColor/UIColor+init.swift",
+      "line": 49,
+      "symbol": "UIColor.hexStringToUIColor(hex:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIDevice+Extension.swift",
+      "line": 11,
+      "symbol": "UIDevice.isSimulator",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImage/UIImage+Extension.swift",
+      "line": 12,
+      "symbol": "UIImage.circleMask",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImage/UIImage+Extension.swift",
+      "line": 30,
+      "symbol": "UIImage.saveImageToDisk()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImage/UIImage+Extension.swift",
+      "line": 44,
+      "symbol": "UIImage.getDocumentsPath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImage/UIImage+Extension.swift",
+      "line": 62,
+      "symbol": "UIImage.getCachesDirectoryPath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 12,
+      "symbol": "ShadowRoundedImageView.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 17,
+      "symbol": "ShadowRoundedImageView.imageLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 18,
+      "symbol": "ShadowRoundedImageView.shadowLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 20,
+      "symbol": "ShadowRoundedImageView.shape",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 23,
+      "symbol": "ShadowRoundedImageView.shapeAsPath",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 26,
+      "symbol": "ShadowRoundedImageView.shapeAsMask",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIImageViews/ShadowRoundedImageView.swift",
+      "line": 31,
+      "symbol": "ShadowRoundedImageView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIStoryboard/UIStoryboard+extension.swift",
+      "line": 13,
+      "symbol": "UIStoryboard.viewController(from:with:in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+Cells.swift",
+      "line": 12,
+      "symbol": "UITableView.registerNibForCell(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+Cells.swift",
+      "line": 17,
+      "symbol": "UITableView.registerNibForHeaderFooterView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+Cells.swift",
+      "line": 22,
+      "symbol": "UITableView.dequeueReusableCellForIndexPath(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+Cells.swift",
+      "line": 26,
+      "symbol": "UITableView.dequeueReusableHeaderFooterView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+IndexPath.swift",
+      "line": 12,
+      "symbol": "IndexPath.fromRow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+extension.swift",
+      "line": 12,
+      "symbol": "UITableView.scrollToBottom()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+extension.swift",
+      "line": 21,
+      "symbol": "UITableView.scrollToTop()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+extension.swift",
+      "line": 31,
+      "symbol": "UITableView.setEmptyMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+extension.swift",
+      "line": 47,
+      "symbol": "UITableView.restore()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+extension.swift",
+      "line": 52,
+      "symbol": "UITableView.numberOfRows()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITableView/UITableView+extension.swift",
+      "line": 64,
+      "symbol": "UITableView.applyChanges(section:deletions:insertions:updates:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITextField/UITextField+CGRect.swift",
+      "line": 12,
+      "symbol": "UITextField.editingRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITextField/UITextField+CGRect.swift",
+      "line": 16,
+      "symbol": "UITextField.placeholderRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITextField/UITextField+CGRect.swift",
+      "line": 20,
+      "symbol": "UITextField.textRect(forBounds:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITextField/UITextField+CGRect.swift",
+      "line": 27,
+      "symbol": "UITextField.placeHolderColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UITextField/UITextField+CGRect.swift",
+      "line": 36,
+      "symbol": "UITextField.leftImageViewInTextField(imageName:imageViewRect:imageInsetValue:imageTintColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIView+Extension.swift",
+      "line": 11,
+      "symbol": "UIView.parentViewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIView+Extension.swift",
+      "line": 22,
+      "symbol": "UIView.getView(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 10,
+      "symbol": "Segue",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 11,
+      "symbol": "Segue.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 12,
+      "symbol": "Segue.destination",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 14,
+      "symbol": "Segue.init(segueIdentifier:destination:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 19,
+      "symbol": "Segue.init(_:destination:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 25,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 29,
+      "symbol": "<(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/Segue.swift",
+      "line": 34,
+      "symbol": "UIViewController.performSegue(_:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Alert.swift",
+      "line": 14,
+      "symbol": "UIViewController.showQuantityAlert(with:doneActionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Alert.swift",
+      "line": 42,
+      "symbol": "UIAlertController.textDidChange()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Alert.swift",
+      "line": 50,
+      "symbol": "UIViewController.presentInfo(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Alert.swift",
+      "line": 55,
+      "symbol": "UIViewController.presentError(_:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Alert.swift",
+      "line": 68,
+      "symbol": "UIViewController.presentAlert(title:message:buttonTitles:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+BarButtonItems.swift",
+      "line": 15,
+      "symbol": "UIViewController.addBackButtonIfNeeded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+BarButtonItems.swift",
+      "line": 21,
+      "symbol": "UIViewController.addCloseButton()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+BarButtonItems.swift",
+      "line": 35,
+      "symbol": "UIViewController.backButtonDidPress()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 11,
+      "symbol": "Performable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 12,
+      "symbol": "Performable.Destination",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 15,
+      "symbol": "Identifiable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 16,
+      "symbol": "Identifiable.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 17,
+      "symbol": "Identifiable.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 20,
+      "symbol": "Identifiable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 21,
+      "symbol": "Identifiable.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 25,
+      "symbol": "Identifiable.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 36,
+      "symbol": "UIViewController.Destination",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 53,
+      "symbol": "UIViewController.performSegue(_:prepareDestination:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 61,
+      "symbol": "UIViewController.prepareSwizzleMethods()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+Segue.swift",
+      "line": 85,
+      "symbol": "UIViewController.sw_prepare(for:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+extension.swift",
+      "line": 14,
+      "symbol": "UIViewController.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+extension.swift",
+      "line": 20,
+      "symbol": "UIViewController.showAlert(title:message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+extension.swift",
+      "line": 29,
+      "symbol": "UIViewController.checkRemoteNotficationsPermission()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/UIKit+Extensions/UIViewController/UIViewController+extension.swift",
+      "line": 84,
+      "symbol": "UIViewController.showIndicator()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/alokchoudhary/Documents/GitHub/mool"
+}

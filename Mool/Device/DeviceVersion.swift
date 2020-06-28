@@ -6,7 +6,7 @@
 //  Copyright © 2019 Mt Aden LLC. All rights reserved.
 //
 
-public enum Version: String {
+public enum DeviceModel: String {
     /*** iPhone ***/
     case iPhone4
     case iPhone4S

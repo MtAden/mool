@@ -43,5 +43,4 @@ extension UIApplication {
         self.shared.keyWindow?.rootViewController?.presentInfo(message)
     }
 }
-
 #endif

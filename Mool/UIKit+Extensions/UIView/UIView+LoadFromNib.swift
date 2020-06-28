@@ -11,6 +11,9 @@
 import UIKit
 
 extension UIView {
+    
+    /// loading view from a nil
+    /// - Parameter nibName: nib file in project
     func loadFromNib(with nibName: String? = nil) {
         let view = Bundle.main.loadNibNamed(nibName ?? nameOfClass, owner: self)?.last as! UIView
         addSubview(view)

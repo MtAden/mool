@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension String {
+public extension String {
     func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
         let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
         let boundingBox = self.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font: font], context: nil)
@@ -25,8 +25,8 @@ extension String {
     }
 }
 
-extension String {
-    public func removeWhiteSpaces() -> String {
+public extension String {
+    func removeWhiteSpaces() -> String {
         let arr = self.components(separatedBy: CharacterSet(charactersIn: " "))
         var concatedString = ""
         
@@ -36,4 +36,13 @@ extension String {
         
         return concatedString
     }
+    
+    func stringByTrimmingWhitespace() -> String? {
+        return trimmingCharacters(in: CharacterSet.whitespaces)
+    }
+
+    func stringByTrimmingWhitespaceAndNewlines() -> String? {
+        return trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+    }
+    
 }

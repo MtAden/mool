@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 open class Device {
     static fileprivate func getVersionCode() -> String {
         var systemInfo = utsname()
@@ -18,7 +19,7 @@ open class Device {
         return versionCode
     }
     
-    static fileprivate func getVersion(code: String) -> Version {
+    static fileprivate func getDeviceModel(code: String) -> DeviceModel {
         switch code {
             /*** iPhone ***/
         case "iPhone3,1", "iPhone3,2", "iPhone3,3":     return .iPhone4
@@ -42,21 +43,21 @@ open class Device {
             
             
             /*** iPad ***/
-        case "iPad1,1", "iPad1,2":                    return Version.iPad1
-        case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4": return Version.iPad2
-        case "iPad3,1", "iPad3,2", "iPad3,3":           return Version.iPad3
-        case "iPad3,4", "iPad3,5", "iPad3,6":           return Version.iPad4
-        case "iPad6,11", "iPad6,12":                   return Version.iPad5
-        case "iPad7,5", "iPad 7,6":                    return Version.iPad6
-        case "iPad4,1", "iPad4,2", "iPad4,3":           return Version.iPadAir
-        case "iPad5,3", "iPad5,4":                     return Version.iPadAir2
-        case "iPad2,5", "iPad2,6", "iPad2,7":           return Version.iPadMini
-        case "iPad4,4", "iPad4,5", "iPad4,6":           return Version.iPadMini2
-        case "iPad4,7", "iPad4,8", "iPad4,9":           return Version.iPadMini3
-        case "iPad5,1", "iPad5,2":                     return Version.iPadMini4
-        case "iPad6,7", "iPad6,8", "iPad7,1", "iPad7,2":  return Version.iPadPro12_9Inch
-        case "iPad7,3", "iPad7,4":                       return Version.iPadPro10_5Inch
-        case "iPad6,3", "iPad6,4":                       return Version.iPadPro9_7Inch
+        case "iPad1,1", "iPad1,2":                    return DeviceModel.iPad1
+        case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4": return DeviceModel.iPad2
+        case "iPad3,1", "iPad3,2", "iPad3,3":           return DeviceModel.iPad3
+        case "iPad3,4", "iPad3,5", "iPad3,6":           return DeviceModel.iPad4
+        case "iPad6,11", "iPad6,12":                   return DeviceModel.iPad5
+        case "iPad7,5", "iPad 7,6":                    return DeviceModel.iPad6
+        case "iPad4,1", "iPad4,2", "iPad4,3":           return DeviceModel.iPadAir
+        case "iPad5,3", "iPad5,4":                     return DeviceModel.iPadAir2
+        case "iPad2,5", "iPad2,6", "iPad2,7":           return DeviceModel.iPadMini
+        case "iPad4,4", "iPad4,5", "iPad4,6":           return DeviceModel.iPadMini2
+        case "iPad4,7", "iPad4,8", "iPad4,9":           return DeviceModel.iPadMini3
+        case "iPad5,1", "iPad5,2":                     return DeviceModel.iPadMini4
+        case "iPad6,7", "iPad6,8", "iPad7,1", "iPad7,2":  return DeviceModel.iPadPro12_9Inch
+        case "iPad7,3", "iPad7,4":                       return DeviceModel.iPadPro10_5Inch
+        case "iPad6,3", "iPad6,4":                       return DeviceModel.iPadPro9_7Inch
             
             /*** iPod ***/
         case "iPod1,1":                                  return .iPodTouch1Gen
@@ -89,8 +90,8 @@ open class Device {
         }
     }
     
-    static public func version() -> Version {
-        return getVersion(code: getVersionCode())
+    static public func version() -> DeviceModel {
+        return getDeviceModel(code: getVersionCode())
     }
     
     static public func size() -> Size {
