@@ -248,7 +248,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Static function that return the <code>NumberFormatter</code> for given currency.</p>
 
                       </div>
                       <div class="declaration">
@@ -258,6 +258,29 @@
                           <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">formatter</span><span class="p">(</span><span class="n">with</span> <span class="nv">currencyCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">NumberFormatter</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currencyCode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Three letter currency code eg <code>USD</code>.
+### Usage: ###
+<code>
+let formatter = NumberFormatter.formatter(with: &quot;USD&quot;)
+</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>

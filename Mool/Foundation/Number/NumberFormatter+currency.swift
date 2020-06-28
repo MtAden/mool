@@ -9,6 +9,15 @@
 import Foundation
 
 extension NumberFormatter {
+    /**
+    Static function that return the `NumberFormatter` for given currency.
+     - Parameters:
+        - currencyCode : Three letter currency code eg `USD`.
+     ### Usage: ###
+     ````
+     let formatter = NumberFormatter.formatter(with: "USD")
+     ````
+     */
     static func formatter(with currencyCode: String) -> NumberFormatter {
         let formatter = NumberFormatter()
         formatter.numberStyle = NumberFormatter.Style.currency

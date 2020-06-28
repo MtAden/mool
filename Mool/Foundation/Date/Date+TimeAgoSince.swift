@@ -11,6 +11,8 @@ import Foundation
 typealias DateCompomentsTuple = (Int?, Int?, Int?, Int?, Int?, Int?, Int?)
 
 public extension Date {
+    
+    
     static func timeAgoSinceNow(numeric numericDates: Bool) -> String {
         return timeAgo(since: Date(), numericDates: numericDates)
     }

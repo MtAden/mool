@@ -457,35 +457,35 @@
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 14,
+      "line": 16,
       "symbol": "Date.timeAgoSinceNow(numeric:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 18,
+      "line": 20,
       "symbol": "Date.timeAgo(since:numericDates:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 31,
+      "line": 33,
       "symbol": "Date.testDateSinceSometime()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 114,
+      "line": 116,
       "symbol": "Date.earlierDate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 118,
+      "line": 120,
       "symbol": "Date.laterDate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -750,13 +750,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Number/NumberFormatter+currency.swift",
-      "line": 12,
-      "symbol": "NumberFormatter.formatter(with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/String/String+EmailValidation.swift",
       "line": 13,
       "symbol": "String.isValidEmailAddress()",
@@ -866,13 +859,6 @@
       "line": 11,
       "symbol": "String.youtubeID",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/URL/URL+extension.swift",
-      "line": 14,
-      "symbol": "URL.inDocumentsFolder(fileName:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
