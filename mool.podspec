@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Mool"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Extra Foundation for rapid app development."
 
   spec.description  = "Mool is Foundation for rapid app development. Providing thousands lines of code that can be readiliy used in any app. Mool completley written in the Swift 5."

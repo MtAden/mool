@@ -6,20 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		BB97504524A7D36B00BCE32E /* Mool-Documentation */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = BB97504824A7D36B00BCE32E /* Build configuration list for PBXAggregateTarget "Mool-Documentation" */;
-			buildPhases = (
-				BB97504924A7D37300BCE32E /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = "Mool-Documentation";
-			productName = "Mool-Documentation";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		BB2D8FB623137DCE0008BE3F /* NumberFormatter+currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D8FB523137DCE0008BE3F /* NumberFormatter+currency.swift */; };
 		BB2D8FB823137E360008BE3F /* String+localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D8FB723137E360008BE3F /* String+localization.swift */; };
@@ -71,7 +57,6 @@
 		BB827F53233B370D004D4CFB /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F52233B370D004D4CFB /* DeviceType.swift */; };
 		BB827F55233B3733004D4CFB /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB827F54233B3733004D4CFB /* DeviceSize.swift */; };
 		BB8B47A82334287C009FD5D0 /* Toolbar+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */; };
-		BB8B47B123342B77009FD5D0 /* GMSPolyline+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */; };
 		BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */; };
 		BB8B47B723342D8B009FD5D0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B623342D8B009FD5D0 /* Toast.swift */; };
 		BB8B47B923342F1D009FD5D0 /* UIView+autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */; };
@@ -165,7 +150,6 @@
 		BB827F52233B370D004D4CFB /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
 		BB827F54233B3733004D4CFB /* DeviceSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
 		BB8B47A72334287C009FD5D0 /* Toolbar+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toolbar+helpers.swift"; sourceTree = "<group>"; };
-		BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSPolyline+extension.swift"; sourceTree = "<group>"; };
 		BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateComponents+extension.swift"; sourceTree = "<group>"; };
 		BB8B47B623342D8B009FD5D0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+autolayout.swift"; sourceTree = "<group>"; };
@@ -248,7 +232,6 @@
 				BB5E11572310792C00B8B489 /* App+InfoPlist.swift */,
 				BB80354423C6A1ED00CDD5E0 /* LAContext */,
 				BB827F4D233B368E004D4CFB /* Device */,
-				BB8B47AF23342B4A009FD5D0 /* GoogleMaps+extensions */,
 				BB5E11392310752100B8B489 /* Mool.h */,
 				BB5E113A2310752100B8B489 /* Info.plist */,
 			);
@@ -437,14 +420,6 @@
 			path = Device;
 			sourceTree = "<group>";
 		};
-		BB8B47AF23342B4A009FD5D0 /* GoogleMaps+extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BB8B47B023342B77009FD5D0 /* GMSPolyline+extension.swift */,
-			);
-			path = "GoogleMaps+extensions";
-			sourceTree = "<group>";
-		};
 		BB8B47B523342D7E009FD5D0 /* Toast */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,9 +513,6 @@
 					BB5E113E2310752100B8B489 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					BB97504524A7D36B00BCE32E = {
-						CreatedOnToolsVersion = 11.5;
-					};
 				};
 			};
 			buildConfigurationList = BB5E11302310752100B8B489 /* Build configuration list for PBXProject "Mool" */;
@@ -564,7 +536,6 @@
 			targets = (
 				BB5E11352310752100B8B489 /* Mool */,
 				BB5E113E2310752100B8B489 /* MoolTests */,
-				BB97504524A7D36B00BCE32E /* Mool-Documentation */,
 			);
 		};
 /* End PBXProject section */
@@ -611,27 +582,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BB97504924A7D37300BCE32E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "
-";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		BB5E11322310752100B8B489 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -672,7 +622,6 @@
 				BB8B47B723342D8B009FD5D0 /* Toast.swift in Sources */,
 				BB5E11832310792E00B8B489 /* UIStoryboard+extension.swift in Sources */,
 				BB2D8FC3231380370008BE3F /* UIView+NameOfClass.swift in Sources */,
-				BB8B47B123342B77009FD5D0 /* GMSPolyline+extension.swift in Sources */,
 				BB5E118A2310792E00B8B489 /* UITextField+CGRect.swift in Sources */,
 				BB5E117B2310792E00B8B489 /* Date+String.swift in Sources */,
 				BB5E3511233600F000BA0527 /* UIViewConroller+Hero.swift in Sources */,
@@ -853,9 +802,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mtaden.fw.ios.Mool;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -881,9 +832,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mtaden.fw.ios.Mool;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -927,24 +880,6 @@
 			};
 			name = Release;
 		};
-		BB97504624A7D36B00BCE32E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55A5VSLH99;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		BB97504724A7D36B00BCE32E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 55A5VSLH99;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -971,15 +906,6 @@
 			buildConfigurations = (
 				BB5E114E2310752100B8B489 /* Debug */,
 				BB5E114F2310752100B8B489 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB97504824A7D36B00BCE32E /* Build configuration list for PBXAggregateTarget "Mool-Documentation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB97504624A7D36B00BCE32E /* Debug */,
-				BB97504724A7D36B00BCE32E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
