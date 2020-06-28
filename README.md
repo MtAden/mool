@@ -10,7 +10,9 @@
 
 In `Sanskrit(संस्कृतम्)`, `Mool(मूल:)` translated as original or prime. This repo consists of extensions and classes that can help any developer to bootstrap a new project very easily and quickly.
 <p>
-Access documentation <a ref="https://mtaden.github.io/mool/" _target=blank>https://mtaden.github.io/mool/</a>.
+
+**Documentation**<br>
+[https://mtaden.github.io/mool/](https://mtaden.github.io/mool/)
 
 **Todo**: <br>
 ✅ Framework icon <br>
