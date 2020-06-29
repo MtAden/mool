@@ -457,35 +457,35 @@
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 16,
+      "line": 15,
       "symbol": "Date.timeAgoSinceNow(numeric:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 20,
+      "line": 19,
       "symbol": "Date.timeAgo(since:numericDates:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 33,
+      "line": 32,
       "symbol": "Date.testDateSinceSometime()",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 116,
+      "line": 115,
       "symbol": "Date.earlierDate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alokchoudhary/Documents/GitHub/mool/Mool/Foundation/Date/Date+TimeAgoSince.swift",
-      "line": 120,
+      "line": 119,
       "symbol": "Date.laterDate(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
