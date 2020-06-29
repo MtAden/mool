@@ -60,6 +60,7 @@
 		BB8B47B323342C8A009FD5D0 /* DateComponents+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B223342C8A009FD5D0 /* DateComponents+extension.swift */; };
 		BB8B47B723342D8B009FD5D0 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B623342D8B009FD5D0 /* Toast.swift */; };
 		BB8B47B923342F1D009FD5D0 /* UIView+autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */; };
+		BB9750EB24A96D5700BCE32E /* CLLocationManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9750EA24A96D5700BCE32E /* CLLocationManager+Extension.swift */; };
 		CF6952C524A5B0EC00E6147A /* String+EmailValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6952C424A5B0EC00E6147A /* String+EmailValidation.swift */; };
 		CF6952C824A5B6F300E6147A /* UserDefaults+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6952C724A5B6F300E6147A /* UserDefaults+extension.swift */; };
 		CF6952CA24A5BB2600E6147A /* UIRefreshControl+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6952C924A5BB2600E6147A /* UIRefreshControl+UITableView.swift */; };
@@ -154,6 +155,7 @@
 		BB8B47B623342D8B009FD5D0 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		BB8B47B823342F1D009FD5D0 /* UIView+autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+autolayout.swift"; sourceTree = "<group>"; };
 		BB9750CB24A7E2AF00BCE32E /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Example.xcodeproj; sourceTree = "<group>"; };
+		BB9750EA24A96D5700BCE32E /* CLLocationManager+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Extension.swift"; sourceTree = "<group>"; };
 		CF6952C424A5B0EC00E6147A /* String+EmailValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+EmailValidation.swift"; sourceTree = "<group>"; };
 		CF6952C724A5B6F300E6147A /* UserDefaults+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+extension.swift"; sourceTree = "<group>"; };
 		CF6952C924A5BB2600E6147A /* UIRefreshControl+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+UITableView.swift"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		BB5E11382310752100B8B489 /* Mool */ = {
 			isa = PBXGroup;
 			children = (
+				BB9750E924A96D2700BCE32E /* CoreLocation */,
 				BB5E11582310792D00B8B489 /* Foundation */,
 				BB5E115F2310792D00B8B489 /* UIKit+Extensions */,
 				BB5E350E233600A300BA0527 /* App+generic.swift */,
@@ -446,6 +449,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BB9750E924A96D2700BCE32E /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				BB9750EA24A96D5700BCE32E /* CLLocationManager+Extension.swift */,
+			);
+			path = CoreLocation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -624,6 +635,7 @@
 				BB2D8FC3231380370008BE3F /* UIView+NameOfClass.swift in Sources */,
 				BB5E118A2310792E00B8B489 /* UITextField+CGRect.swift in Sources */,
 				BB5E117B2310792E00B8B489 /* Date+String.swift in Sources */,
+				BB9750EB24A96D5700BCE32E /* CLLocationManager+Extension.swift in Sources */,
 				BB5E3511233600F000BA0527 /* UIViewConroller+Hero.swift in Sources */,
 				BB2D8FB823137E360008BE3F /* String+localization.swift in Sources */,
 				BB5E1152231075C800B8B489 /* UIButton+animation.swift in Sources */,

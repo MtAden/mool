@@ -23,6 +23,8 @@ extension CLLocationManager {
             if let viewController = viewController {
                 self.init().showLocationAceessDeniedAlert(on: viewController, message: "📍Location service: Please select 'Always' under location access")
             }
+        @unknown default:
+            fatalError()
         }
     }
     

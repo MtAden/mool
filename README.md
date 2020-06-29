@@ -1,4 +1,4 @@
-# **`(मूल:)` Mool**
+# **`(मूल:)` Mool** [![Build Status](https://travis-ci.org/MtAden/mool.svg?branch=master)](https://travis-ci.org/MtAden/mool)
 -------
 
 #### Extra Foundation Framework for your app
