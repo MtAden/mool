@@ -32,7 +32,6 @@ In `Sanskrit(संस्कृतम्)`, `Mool(मूल:)` translated as ori
 -------------------------------------------
 [![HitCount](http://hits.dwyl.com/mtaden/mool.svg)](http://hits.dwyl.com/mtaden/mool)
 <!-- All visible code above this line -->
----
 <!-- invisible tracking pixel from segment.io -->
 <img src="https://api.segment.io/v1/pixel/track?data=ewogICJ3cml0ZUtleSI6ICJlUXhIQm1ucDBHZFpLM1I2S1VHc01EWUJ1YUJ5RGlhSiIsCiAgInVzZXJJZCI6ICJnaXRodWJfdXNlciIsCiAgInJlcG8iOiAiTW9vbCIsCiAgImV2ZW50IjogInBhZ2UgdmlzaXQiLAogICJwcm9wZXJ0aWVzIjogewogICAgIndlYnNpdGUiOiAiaHR0cHM6Ly9naXRodWIuY29tL210YWRlbi9tb29sIgogIH0KfQ==">
 <!-- end here --> 
