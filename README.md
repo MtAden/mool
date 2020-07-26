@@ -29,7 +29,8 @@ In `Sanskrit(संस्कृतम्)`, `Mool(मूल:)` translated as ori
 ✅ Add documentation through Jazzy <br>
 ❌ Adding content to example project. <br>
 
-
+-------------------------------------------
+[![HitCount](http://hits.dwyl.com/mtaden/mool.svg)](http://hits.dwyl.com/mtaden/mool)
 <!-- All visible code above this line -->
 ---
 <!-- invisible tracking pixel from segment.io -->
